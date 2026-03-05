@@ -30,7 +30,7 @@ Detection of pulmonary nodules is one of the most challenging tasks in medical i
 | **YOLOv12-Proposed** | **0.1820** | **0.0699** | **0.233** |
 
 ### Key Takeaways:
-* **100% Improvement in mAP@0.5:** The integration of the P2 high-resolution branch and CBAM attention modules allowed the model to better capture fine-grained features of nodules.
+* **Performance Doubled:** The proposed modifications **effectively doubled the mAP@0.5** for nodule detection (from 0.0906 to 0.1820).
 * **Superior Recall:** Increased sensitivity means fewer missed pathologies, a critical factor for clinical decision support systems.
 
 ##  Targeted Pathologies
