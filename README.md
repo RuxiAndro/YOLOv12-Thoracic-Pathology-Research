@@ -5,12 +5,19 @@ This research introduces a customized deep learning model based on **YOLOv12**, 
 
 > **Publication:** Presented at the **IEEE 21st International Conference on Intelligent Computer Communication and Processing (ICCP 2025)**.
 
-##  Proposed Solution & Enhancements
-Unlike standard detectors, this version of YOLOv12 incorporates specific architectural changes to handle the complexity of medical images:
+## Proposed Solution & Architectural Enhancements
 
-* **High-Resolution Detection Branch (P2):** Added specifically to improve the localization of small and subtle lesions that are often missed by standard scales.
-* **Convolutional Block Attention Module (CBAM):** Enhances the model's focus on diagnostically relevant spatial and channel features, filtering out noise in X-ray scans.
-* **Deformable Convolutions (DCN):** Increased architectural flexibility for detecting irregularly shaped pathologies, adapting the receptive field to the actual lesion form.
+To address the challenges of medical imaging, I have implemented several key modifications to the standard YOLOv12 architecture. The diagram below illustrates the integration of these components across the Backbone, Neck, and Head.
+
+![YOLOv12 Medical Architecture Optimization](images/Enhancements_YOLOv12.png)
+*Figure 1: Enhanced YOLOv12 architecture featuring P2 High-Resolution branch, CBAM attention blocks, and Deformable Convolutions.*
+
+### Key Enhancements:
+
+* **High-Resolution Detection Branch (P2):** As shown in the top dashed section of the diagram, a dedicated P2 branch was added. This allows the model to process feature maps at a higher resolution, significantly improving the detection of small pulmonary nodules.
+* **Convolutional Block Attention Module (CBAM):** Integrated within the Neck (see the red CBAM blocks). This mechanism helps the model focus on the most relevant features by applying both channel and spatial attention.
+* **Deformable Convolutions (DCN):** Replaced standard convolutions in the backbone (marked as `Def.Conv` in red). This allows the receptive field to adapt to the irregular shapes of thoracic pathologies like pleural effusion.
+* **A2C2f Layers:** Advanced feature aggregation blocks that maintain a high flow of information while reducing computational overhead.
 * **Optimized for Medical Use:** Fine-tuned to balance higher sensitivity (recall) with fast inference, crucial for clinical decision support systems.
 
 ##  Targeted Pathologies
