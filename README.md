@@ -3,7 +3,7 @@
 ##  Abstract
 This research introduces a customized deep learning model based on **YOLOv12**, optimized for high-sensitivity detection of thoracic pathologies in chest X-rays. The model balances real-time inference performance with the precision required for medical diagnostics.
 
-> **Publication:** Ruxandra Andro and Cristian-Cosmin Vancea. Architectural Enhancements to YOLOv12 for Improving Detection of Thoracic Pathologies in Chest X-rays. Proceedings of IEEE 21st International Conference on Intelligent Computer Communication and Processing (ICCP 2025), 16-18 October 2025, pp. 1-8, DOI: 10.1109/ICCP68926.2025.11427119**.
+> **Publication:** Ruxandra Andro and Cristian-Cosmin Vancea. Architectural Enhancements to YOLOv12 for Improving Detection of Thoracic Pathologies in Chest X-rays. Proceedings of IEEE 21st International Conference on Intelligent Computer Communication and Processing (ICCP 2025), 16-18 October 2025, pp. 1-8, DOI: 10.1109/ICCP68926.2025.11427119.
 
 ## Proposed Solution & Architectural Enhancements
 
