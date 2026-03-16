@@ -1,7 +1,7 @@
 # Architectural Enhancements to YOLOv12 for Thoracic Pathology Detection
 
 [![DOI:10.1109/ICCP68926.2025.11427119](https://img.shields.io/badge/DOI-10.1109%2FICCP68926.2025.11427119-blue.svg)](https://doi.org/10.1109/ICCP68926.2025.11427119)
-[![Conference](https://img.shields.io/badge/IEEE-ICCP%202025-orange)](https://doi.org/10.1109/ICCP68926.2025.11427119)
+[![Conference: IEEE ICCP 2025](https://img.shields.io/badge/Conference-IEEE%20ICCP%202025-orange.svg)](https://iccp.ro/iccp2025/technical-program)
 [![Model](https://img.shields.io/badge/YOLO-v12-green)](https://github.com/ultralytics/ultralytics)
 
 ##  Abstract
